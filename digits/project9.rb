@@ -23,13 +23,11 @@ break if action.include?(app)
 end
 case app
 	when '*'
-		res = a * b
+		puts "Результат: #{a * b}"
 	when '/'
-		res = a / b
+		puts "Результат: #{a / b}"
 	when '+'
-		res = a + b
+		puts "Результат: #{a + b}"
 	when '-'
-		res = a - b
+		puts "Результат: #{a - b}"
 end
-
-puts "Результат: #{res}"
