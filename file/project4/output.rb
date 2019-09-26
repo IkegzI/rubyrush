@@ -11,8 +11,12 @@ class Output
     end
 
     def progress(status)
-      output_vis = File.readlines("#{File.dirname(__FILE__)}/data/#{status+1}.txt")
-         puts output_vis
+      begin
+        output_vis = File.readlines("#{File.dirname(__FILE__)}/data/#{status+1}.txt")
+        puts output_vis
+      rescue Errno::ENOENT
+        puts 'Изображение не найдено :-('
+      end
     end
 
     def print_guess(letters_slovo, letters_guess)
