@@ -15,16 +15,9 @@ rescue Errno::ENOENT
   game_opt = 'pc'
 end
 
-
 puts "Введите слово для игры:" unless game_opt == 1
 word = Slovo.new(game_opt != 1 ? STDIN.gets.chomp : (word_pc))
 letter = Letter.new(word.quess_letter)
-
-
-
-
-
-
 
 loop do
   Output.cls
