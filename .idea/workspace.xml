@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="class notepad">
-      <change afterPath="$PROJECT_DIR$/class/project6/link.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/project6/memo.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/project6/post.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class/project6/task.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/project6/parrent.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class/project6.rb" beforeDir="false" afterPath="$PROJECT_DIR$/class/project6.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +124,7 @@
       <workItem from="1569585844854" duration="69000" />
       <workItem from="1569585931154" duration="6000" />
       <workItem from="1569585961047" duration="15000" />
-      <workItem from="1569586056860" duration="11400000" />
+      <workItem from="1569586056860" duration="12342000" />
     </task>
     <task id="LOCAL-00001" summary="260919&#10;">
       <created>1569510115828</created>
