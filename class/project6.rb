@@ -1,78 +1,32 @@
-class Memo < Post
+require_relative './project6/memo'
+require_relative './project6/task'
+require_relative './project6/link'
+require_relative './project6/post'
 
-  def input_data
-
+if ["memo", "task", "link"].include?(ARGV[0]) and ARGV[0] != nil
+  case ARGV[0]
+  when "memo"
+    s = 1
+  when "task"
+    s = 2
+  when "link"
+    s = 3
   end
-
-  def to_string
-
-  end
-
+else
+  puts "Вы неправильно указали тип поста"
 end
 
-class Link < Post
+s = STDIN.gets.to_i unless defined?(s)
 
-  def initialize
-    super
-    @url = ''
-  end
-
-  def input_data
-
-  end
-
-  def to_string
-
-  end
-
-
+case s
+when 1
+  a = Memo.new(ARGV[1])
+  a.save
+when 2
+  a = Task.new(ARGV[1], ARGV[2])
+  a.save
+when 3
+  a = Link.new(ARGV[1], ARGV[2])
+  a.save
 end
 
-class Task < Post
-
-  def initialize
-    super
-    @due_date
-  end
-
-  def input_data
-
-  end
-
-  def to_string
-
-  end
-
-end
-
-class Post
-
-  def initialize
-    @text
-    @created_at
-  end
-
-  def input_data
-
-  end
-
-  def to_string
-
-  end
-
-  def save
-    file = File.new(file_path)
-    for item in to_string do
-      file.puts(item)
-    end
-    file.close
-
-  end
-
-  def file_path
-    current_path = File.dirname(__FILE__)
-    file_name = @created_at.strftime("#{self.class.name}_%d%m%Y-%h-%m-%s.txt")
-    current_path + file_name
-  end
-
-end
