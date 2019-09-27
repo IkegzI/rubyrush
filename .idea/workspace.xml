@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="260919">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rubyrush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubyrush.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash/project2.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash/project1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/hash/project1.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class Template" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -104,6 +102,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -123,7 +122,7 @@
       <workItem from="1569585844854" duration="69000" />
       <workItem from="1569585931154" duration="6000" />
       <workItem from="1569585961047" duration="15000" />
-      <workItem from="1569586056860" duration="1548000" />
+      <workItem from="1569586056860" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="260919&#10;">
       <created>1569510115828</created>
