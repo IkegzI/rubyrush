@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="class notepad">
-      <change afterPath="$PROJECT_DIR$/class/project6/parrent.rb" afterDir="false" />
+    <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="parrent and child">
+      <change afterPath="$PROJECT_DIR$/class/project7.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/project7/book.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/project7/movie.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class/project7/product.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class Template" />
-        <option value="Ruby File" />
         <option value="Ruby Class" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -55,6 +58,11 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ruby\rubyrush\class" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -94,6 +102,20 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="project7" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyrush" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/class" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/class/project7.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -103,6 +125,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.project7" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -124,7 +151,7 @@
       <workItem from="1569585844854" duration="69000" />
       <workItem from="1569585931154" duration="6000" />
       <workItem from="1569585961047" duration="15000" />
-      <workItem from="1569586056860" duration="12342000" />
+      <workItem from="1569586056860" duration="16715000" />
     </task>
     <task id="LOCAL-00001" summary="260919&#10;">
       <created>1569510115828</created>
@@ -140,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569589999562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="parrent and child">
+      <created>1569598512285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569598512285</updated>
+    </task>
+    <task id="LOCAL-00004" summary="parrent and child">
+      <created>1569598527747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569598527747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +198,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="260919&#10;" />
     <MESSAGE value="class notepad" />
-    <option name="LAST_COMMIT_MESSAGE" value="class notepad" />
+    <MESSAGE value="parrent and child" />
+    <option name="LAST_COMMIT_MESSAGE" value="parrent and child" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rubyrush@project7.rcov" NAME="project7 Coverage Results" MODIFIED="1569643033929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" MODULE_NAME="rubyrush" />
   </component>
 </project>
