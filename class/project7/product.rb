@@ -16,4 +16,8 @@ class Product
     params.each_key { |key|  @product[key] = params[key]}
   end
 
+  def file_create
+    @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title]}.txt", 'w+')
+  end
+
 end
