@@ -20,4 +20,8 @@ class Product
     @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title]}.txt", 'w+')
   end
 
+  def self.from_file(file_path)
+    raise NotImplementedError
+  end
+
 end

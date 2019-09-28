@@ -2,6 +2,26 @@ require_relative 'product'
 
 class Book < Product
   #attr_accessor :autor, :publishing
+
+
+  def self.from_file(file_path)
+    super
+    file = File.readlines(file_path, encoding: 'UTF-8').map { |l| l.chomp }
+    self.new(
+        # @product = {}
+        # param = [:title, :producer, :year, :price, :amount]
+        # file.each_with_index { |item, index| @product[param[index]] = item }
+        title: file[0],
+        genre: file[1],
+        autor: file[2],
+        price: file[3],
+        amount: file[4]
+    )
+  end
+
+
+
+
   def initialize(params)
     super
     @product[:autor]      = params[:autor]
