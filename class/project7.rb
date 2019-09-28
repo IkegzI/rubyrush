@@ -8,5 +8,5 @@ a[2] = Book.new(title: 'Готовка для чайников',autor: 'Иван
 a[3] = Book.new(title: 'Идиот',autor: 'Достоевский Ф.М.', price: 1200, amount: 4, publishing: 'Классическая книга', year: 2010)
 
 
-a[0].producer = 'Люк Бессон'
+
 a.each {|item| item.print_info}

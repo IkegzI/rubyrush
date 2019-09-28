@@ -1,14 +1,19 @@
 class Product
-  attr_accessor :price, :amount, :title, :year
+  #attr_accessor :price, :amount, :title, :year
   def initialize(params)
-    @price  = params[:price]
-    @amount = params[:amount]
-    @title  = params[:title]
-    @year   = params[:year]
+    @product = {}
+    @product[:price]  = params[:price]
+    @product[:amount] = params[:amount]
+    @product[:title]  = params[:title]
+    @product[:year]   = params[:year]
   end
 
   def print_info
-    "\'#{@title}\', #{@year}"
+    "\'#{@product[:title]}\', #{@product[:year]}"
+  end
+
+  def update(params)
+    params.each_key { |key|  @product[key] = params[key]}
   end
 
 end
