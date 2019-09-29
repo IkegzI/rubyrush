@@ -10,7 +10,6 @@ class Movie < Product
 
   def self.from_file(file_path)
     begin
-      p file_path
       file = File.readlines(file_path, encoding: 'UTF-8').map { |l| l.chomp }
       self.new(
           title: file[0],
@@ -37,7 +36,6 @@ class Movie < Product
     @file.puts(@product[:amount])
     @file.close
   end
-
 
 end
 

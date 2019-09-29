@@ -7,9 +7,7 @@ class ProductCollection
 
   def self.from_dir
     a = []
-    b = self.arr_file
-    puts b
-    b.each do |item|
+        self.arr_file.each do |item|
       if item.match('data/movie')
         a << Movie.from_file(item.encode('UTF-8'))
       elsif item.match('data/book')
