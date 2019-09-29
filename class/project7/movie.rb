@@ -1,23 +1,18 @@
 require_relative 'product'
 
 class Movie < Product
-  #attr_accessor :producer
 
   def initialize(params)
     super
     @product[:producer] = params[:producer]
     @product[:class_name] = 'movie'
-    file_create
   end
 
   def self.from_file(file_path)
     begin
-      super
+      p file_path
       file = File.readlines(file_path, encoding: 'UTF-8').map { |l| l.chomp }
       self.new(
-          # @product = {}
-          # param = [:title, :producer, :year, :price, :amount]
-          # file.each_with_index { |item, index| @product[param[index]] = item }
           title: file[0],
           producer: file[1],
           year: file[2],
@@ -26,7 +21,6 @@ class Movie < Product
       )
     rescue NotImplementedError
       puts 'Нет данных для загрузки'
-
     end
   end
 

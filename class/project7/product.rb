@@ -1,5 +1,5 @@
 class Product
-  #attr_accessor :price, :amount, :title, :year
+
   def initialize(params)
     @product = {}
     @product[:price]  = params[:price]
@@ -17,11 +17,11 @@ class Product
   end
 
   def file_create
-    @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title]}.txt", 'w+')
+    @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title]}.txt", 'w+', encoding: 'UTF-8')
   end
 
   def self.from_file(file_path)
-    raise NotImplementedError
+    # raise NotImplementedError
   end
 
 end
