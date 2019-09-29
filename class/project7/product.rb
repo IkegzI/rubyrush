@@ -1,5 +1,5 @@
 class Product
-
+  attr_reader :product
   def initialize(params)
     @product = {}
     @product[:price]  = params[:price]
@@ -17,7 +17,7 @@ class Product
   end
 
   def file_create
-    @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title]}.txt", 'w+', encoding: 'UTF-8')
+    @file = File.new("#{File.dirname(__FILE__)}/data/#{@product[:class_name]}/#{@product[:title].scan(/[а-яa-z\d\s\-]/i).join}.txt", 'w+', encoding: 'UTF-8')
   end
 
   def self.from_file(file_path)
