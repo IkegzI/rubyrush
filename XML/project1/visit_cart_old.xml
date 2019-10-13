@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE cart>
+<cart>
+  <name>
+    <first>Alex</first>
+    <last>Wintor</last>
+  </name>
+  <locate>
+    <country>Russia</country>
+    <city>Irkutsk</city>
+  </locate>
+  <contacts>
+    <phone>+79123456789</phone>
+    <email>1@1.ru</email>
+    <skype>kerantus</skype>
+    <telegram>@ke_gz</telegram>
+  </contacts>
+</cart>

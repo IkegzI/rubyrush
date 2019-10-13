@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="shop v3.0">
+      <change afterPath="$PROJECT_DIR$/XML/project1.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/project1/my_expenses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/project1/visit_cart.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/XML/project1/visit_cart_old.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gems/project8.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rubyrush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubyrush.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game/project4.rb" beforeDir="false" afterPath="$PROJECT_DIR$/game/project4.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Ruby Class Template" />
-        <option value="Ruby File" />
         <option value="Ruby Class" />
+        <option value="Ruby File" />
       </list>
     </option>
   </component>
@@ -58,12 +65,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shop_spree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/XML/project1" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Ruby" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ruby\rubyrush\XML\project1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ruby\rubyrush\gems\project8" />
       <recent name="C:\ruby\rubyrush\class" />
     </key>
   </component>
@@ -79,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.project7">
+  <component name="RunManager" selected="Ruby.project1">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -119,17 +131,31 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="product_collection" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="project1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyrush" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/answer_true/04_store/lib" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/XML" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/answer_true/04_store/lib/product_collection.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/XML/project1.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project4" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyrush" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/game" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/game/project4.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
@@ -147,6 +173,20 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="project8" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyrush" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/gems" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/gems/project8.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -158,9 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Ruby.project1" />
+        <item itemvalue="Ruby.project4" />
+        <item itemvalue="Ruby.project8" />
         <item itemvalue="Ruby.project7" />
         <item itemvalue="Ruby.main" />
-        <item itemvalue="Ruby.product_collection" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +226,11 @@
       <workItem from="1569585844854" duration="69000" />
       <workItem from="1569585931154" duration="6000" />
       <workItem from="1569585961047" duration="15000" />
-      <workItem from="1569586056860" duration="60016000" />
+      <workItem from="1569586056860" duration="62741000" />
+      <workItem from="1569851586337" duration="5832000" />
+      <workItem from="1570197046677" duration="2845000" />
+      <workItem from="1570800598393" duration="5540000" />
+      <workItem from="1570971437857" duration="5373000" />
     </task>
     <task id="LOCAL-00001" summary="260919&#10;">
       <created>1569510115828</created>
@@ -277,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569767205127</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="shop v3.0">
+      <created>1569771041838</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569771041838</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +341,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -328,12 +383,23 @@
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/read_xls-0.1.2/lib/read_xls/workbook/worksheet.rb</url>
+          <line>6</line>
+          <properties a="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rubyrush@project7.rcov" NAME="project7 Coverage Results" MODIFIED="1569767128031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project7.rcov" NAME="project7 Coverage Results" MODIFIED="1569850070953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@main.rcov" NAME="main Coverage Results" MODIFIED="1569756769269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/answer_true/04_store" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project1.rcov" NAME="project1 Coverage Results" MODIFIED="1570977197413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XML" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project8.rcov" NAME="project8 Coverage Results" MODIFIED="1569854906394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gems" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project4.rcov" NAME="project4 Coverage Results" MODIFIED="1570801252839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/game" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@product_collection.rcov" NAME="product_collection Coverage Results" MODIFIED="1569755600488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/answer_true/04_store/lib" MODULE_NAME="rubyrush" />
   </component>
 </project>

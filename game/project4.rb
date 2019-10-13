@@ -28,7 +28,9 @@ loop do
   puts 'Все буквы: ' + print_all_letter.uniq.inspect
   puts "Введите букву, у вас осталось #{number_attempt}:"
   break if check_win? or end_attempt?
+  binding.irb
   letter = input_letter
+
   check_input_letter(letter)
   cls
 end

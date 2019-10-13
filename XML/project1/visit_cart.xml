@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<visit_cart>
+<cart>
+  <name first = 'Alex' last = 'Wintor' />
+  <locate country="Russia" city="Irkutsk"/>
+  <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+  <letter>dawdwadwa</letter>
+</cart>
+
+
+<cart1>
+<name first = 'Alex' last = 'Wintor' />
+<locate country="Russia" city="Irkutsk"/>
+<contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+<letter>dawdwadwa</letter>
+</cart1>
+<cart2>
+<name first = 'Alex' last = 'Wintor' />
+<locate country="Russia" city="Irkutsk"/>
+<contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+<letter>dawdwadwa</letter>
+</cart2>
+<cart3>
+<name first = 'Alex' last = 'Wintor' />
+<locate country="Russia" city="Irkutsk"/>
+<contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+<letter>dawdwadwa</letter>
+</cart3>
+<cart4>
+<name first = 'Alex' last = 'Wintor' />
+<locate country="Russia" city="Irkutsk"/>
+<contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+<letter>dawdwadwa</letter>
+</cart4>
+</visit_cart>
