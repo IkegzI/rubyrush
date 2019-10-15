@@ -7,7 +7,6 @@ def file_data(file)
   a.root.get_elements('cart').each_entry do |cart|
     cart.each_element do |elem|
       name_section = elem.name.to_sym
-
       unless (elem.attribute('number').nil? and name_section != 'profession')
         number = elem.attribute('number').value
       else
@@ -28,16 +27,13 @@ def file_data(file)
           section[name_section][number][elem.attribute("#{attrs}").name] = elem.attribute("#{attrs}").value
         end
       end
-
     end
   end
   section
 end
 
-
 file = File.open("./project1/visit_cart.xml")
 data = file_data file
-
 data[:name].each_value { |value| print value + ' ' }
 unless data[:contacts].nil?
  puts
