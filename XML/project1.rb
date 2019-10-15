@@ -1,11 +1,54 @@
 require 'rexml/document'
-file = File.open("./project1/visit_cart.xml")
-a = REXML::Document.new(file)
-a.root.get_elements('cart1').each_entry do |cart|
-  cart.each_element do |elem|
-    puts elem.name + ":   \t" + (elem.text || '')
-    elem.attributes.each_key do |attrs|
-      puts elem.attribute("#{attrs}").name + ":   \t" + elem.attribute("#{attrs}").value
+
+def file_data(file)
+  section = {}
+  #number = nil
+  a = REXML::Document.new(file)
+  a.root.get_elements('cart').each_entry do |cart|
+    cart.each_element do |elem|
+      name_section = elem.name.to_sym
+
+      unless (elem.attribute('number').nil? and name_section != 'profession')
+        number = elem.attribute('number').value
+      else
+       number = nil
+      end
+
+      if number.nil?
+       section[name_section] = {}
+       else
+        section[name_section] = {} if section[name_section].nil?
+        section[name_section][number] = {}
+      end
+
+      elem.attributes.each_key do |attrs|
+       if number.nil?
+          section[name_section][elem.attribute("#{attrs}").name] = elem.attribute("#{attrs}").value
+          elsif attrs != 'number'
+          section[name_section][number][elem.attribute("#{attrs}").name] = elem.attribute("#{attrs}").value
+        end
+      end
+
     end
-  end
 end
+  section
+end
+
+
+file = File.open("./project1/visit_cart.xml")
+data = file_data file
+
+data[:name].each_value { |value| print value + ' ' }
+puts
+puts "Contacts:"
+data[:contacts].each_key { |key| print key + '=>' + data[:contacts][key] + ' ' }
+puts
+puts "Locate:"
+data[:locate].each_value { |value| print value + ' ' }
+puts
+puts 'Profession:'
+data[:profession].each_key do |key|
+  data[:profession][key].each_value{|k| print "#{k} "  }
+  puts
+end
+
