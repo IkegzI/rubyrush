@@ -1,37 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <visit_cart>
   <cart>
+    <photo src="./project2/539574812.jpeg"/>
     <name first='Alex' last='Wintor'/>
     <locate country="Russia" city="Irkutsk"/>
-    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
+    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@z"/>
     <letter>dawdwadwa</letter>
     <profession number="1" name="Junior RUBY developer" exp="0 year"/>
     <profession number="2" name="Senior system administrator" exp="14 year"/>
   </cart>
-
-
-  <cart1>
-    <name first='Alex' last='Wintor'/>
-    <locate country="Russia" city="Irkutsk"/>
-    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
-    <letter>dawdwadwa</letter>
-  </cart1>
-  <cart2>
-    <name first='Alex' last='Wintor'/>
-    <locate country="Russia" city="Irkutsk"/>
-    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
-    <letter>dawdwadwa</letter>
-  </cart2>
-  <cart3>
-    <name first='Alex' last='Wintor'/>
-    <locate country="Russia" city="Irkutsk"/>
-    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
-    <letter>dawdwadwa</letter>
-  </cart3>
-  <cart4>
-    <name first='Alex' last='Wintor'/>
-    <locate country="Russia" city="Irkutsk"/>
-    <contacts phone="+79123456789" email="1@1.ru" skype="kerantus" telegram="@ke_gz"/>
-    <letter>dawdwadwa</letter>
-  </cart4>
 </visit_cart>

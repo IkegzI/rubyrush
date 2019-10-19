@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<visit_cart>
+  <cart>
+    <photo src="./539574812.jpeg"/>
+    <name first='Alex' last='Wintor'/>
+    <locate country="Russia" city="Irkutsk"/>
+    <contacts phone="+71423456789" email="1@1.ru" skype="ke" telegram="@kz"/>
+    <letter>I want to see the result of my work</letter>
+    <profession number="1" name="Junior RUBY developer" exp="0 year"/>
+    <profession number="2" name="Senior System Administrator" exp="14 year"/>
+  </cart>
+</visit_cart>
