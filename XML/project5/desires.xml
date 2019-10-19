@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<desires>
+   <desire name='Выиграть в лотерею 10000000' end_date='2019-10-19' date='2019-10-19'>
+       Купить лотерейные билеты на 100лото, проверить и выиграть 10000000 
+   </desire>
+   <desire name='Проверить выигрышные билеты' end_date='2019-10-20' date='2019-10-19'>
+       Необходимо зайти на сайт 100лото и проверить выигрышные билеты 
+   </desire>
+   <desire name='RubyRush' end_date='2019-10-18' date='2019-10-19'>
+       Закончить курс RubyRush 
+   </desire>
+   <desire name='Сделать коммит на XML' end_date='2019-10-19' date='2019-10-19'>
+       Сделать commit и запушить на github 
+   </desire>
+</desires>
