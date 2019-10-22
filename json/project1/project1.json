@@ -1,0 +1,30 @@
+{
+  "cart": {
+    "photo": "./539574812.jpeg",
+    "name": {
+      "first": "Alex",
+      "last": "Wintor"
+    },
+    "locate": {
+      "country": "Russia",
+      "city": "Irkutsk"
+    },
+    "contacts": {
+      "phone": "+71423456789",
+      "email": "1@1.ru",
+      "skype": "ke",
+      "telegram": "@kz"
+    },
+    "professions": {
+      "1": {
+        "name": "Junior RUBY developer",
+        "exp": "0 year"
+      },
+      "2": {
+        "name": "Senior System Administrator",
+        "exp": "14 year"
+      }
+    },
+    "letter": "I want to see the result of my work"
+  }
+}
