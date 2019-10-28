@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="shop from xml v 1.0">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/project1.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/project1/163.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/project2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notepad.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project1/1.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project1/contacts_11.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/gemfile.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/link.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/memo.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/module_sql.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/notepad.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/post.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/project2/task.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rubyrush.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rubyrush.iml" afterDir="false" />
+    <list default="true" id="45af5e80-aba6-43ae-badf-b90d4805fd8d" name="Default" comment="sql lessons">
+      <change afterPath="$PROJECT_DIR$/net/project3.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/project1.rb" beforeDir="false" afterPath="$PROJECT_DIR$/sql/project1.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/net/project2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/net/project2.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,20 +154,6 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="project1 (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="rubyrush" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/sql" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/sql/project1.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <method v="2" />
-    </configuration>
     <configuration name="project1" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="rubyrush" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -226,6 +196,20 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="project3" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rubyrush" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/net" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/net/project3.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -238,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.project2" />
+        <item itemvalue="Ruby.project3" />
         <item itemvalue="Ruby.project1" />
         <item itemvalue="Ruby.project2 (1)" />
         <item itemvalue="Ruby.module_sql" />
-        <item itemvalue="Ruby.project1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +254,7 @@
       <workItem from="1570197046677" duration="2845000" />
       <workItem from="1570800598393" duration="5540000" />
       <workItem from="1570971437857" duration="79366000" />
-      <workItem from="1571920883136" duration="53291000" />
+      <workItem from="1571920883136" duration="62500000" />
     </task>
     <task id="LOCAL-00001" summary="260919&#10;">
       <created>1569510115828</created>
@@ -419,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571239010461</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="sql lessons">
+      <created>1572261725882</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1572261725883</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -467,7 +458,8 @@
     <MESSAGE value="visit cart html v 1.0" />
     <MESSAGE value="visit cart html v 1.1" />
     <MESSAGE value="shop from xml v 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="shop from xml v 1.0" />
+    <MESSAGE value="sql lessons" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql lessons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,7 +493,7 @@
     <SUITE FILE_PATH="coverage/rubyrush@main.rcov" NAME="main Coverage Results" MODIFIED="1569756769269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/answer_true/04_store" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@module.rcov" NAME="module Coverage Results" MODIFIED="1572143386181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql/project2" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project5.rcov" NAME="project5 Coverage Results" MODIFIED="1571498962779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XML" MODULE_NAME="rubyrush" />
-    <SUITE FILE_PATH="coverage/rubyrush@project2.rcov" NAME="project2 Coverage Results" MODIFIED="1572189024461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project2.rcov" NAME="project2 Coverage Results" MODIFIED="1572276318449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project6.rcov" NAME="project6 Coverage Results" MODIFIED="1571505583547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XML" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project1__1_.rcov" NAME="project1 (1) Coverage Results" MODIFIED="1572143180000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@test.rcov" NAME="test Coverage Results" MODIFIED="1571504703963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/XML/project6" MODULE_NAME="rubyrush" />
@@ -509,7 +501,7 @@
     <SUITE FILE_PATH="coverage/rubyrush@project7.rcov" NAME="project7 Coverage Results" MODIFIED="1569850070953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/class" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project2__1_.rcov" NAME="project2 (1) Coverage Results" MODIFIED="1572179093020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sql" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project1.rcov" NAME="project1 Coverage Results" MODIFIED="1572186062086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" MODULE_NAME="rubyrush" />
-    <SUITE FILE_PATH="coverage/rubyrush@project3.rcov" NAME="project3 Coverage Results" MODIFIED="1571571924985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/json" MODULE_NAME="rubyrush" />
+    <SUITE FILE_PATH="coverage/rubyrush@project3.rcov" NAME="project3 Coverage Results" MODIFIED="1572270099543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/net" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@project8.rcov" NAME="project8 Coverage Results" MODIFIED="1569854906394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gems" MODULE_NAME="rubyrush" />
     <SUITE FILE_PATH="coverage/rubyrush@product_collection.rcov" NAME="product_collection Coverage Results" MODIFIED="1569755600488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/answer_true/04_store/lib" MODULE_NAME="rubyrush" />
   </component>
