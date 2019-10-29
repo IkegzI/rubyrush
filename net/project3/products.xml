@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<products>
+  <product id="1" type="Книга" name="Приключения Тома Сойера" author="Марк Твен" price="1000" residue="5"/>
+  <product id="2" type="Книга" name="Воспоминания Шерлока Холмса" author="Артур Конан Дойльн" price="1100" residue="1"/>
+  <product id="3" type="Аудио" name="Turbo" genre="Heavy Metal" author="Judas Priest" price="500" residue="2"/>
+  <product id="4" type="Аудио" name="Ram It Down" genre="Heavy Metal" author="Judas Priest" price="550" residue="3"/>
+  <product id="5" type="Фильм" name="Пролетая над грездом кукушки" author="Милош Форман" price="350" residue="3"/>
+  <product id="6" type="Аудио" name="Mutter" author="Rammstein" genre="Hard-Rock" price="500" residue="5"/>
+  <product id="7" type="Фильм" name="Джокер (Blue-RAY)" author="Тодд Филлипс" price="800" residue="5"/>
+</products>

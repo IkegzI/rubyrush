@@ -1,8 +1,18 @@
 require 'net/http'
-require 'uri'
-require 'rexml/document'
-uri = URI.parse("http://www.cbr.ru/scripts/XML_daily.asp")
+require 'open-uri'
+require 'nokogiri'
+require 'byebug'
+#require 'rexml/document'
 
-response = Net::HTTP.get_response(uri)
-doc = REXML::Document.new(response.body)
-doc.root
+
+
+
+url = "./project3/visit_cart.xml"
+html = open(url)
+data = {}
+doc = Nokogiri::XML.parse(html)
+doc.root.children.children.each do |elem|
+  byebug
+  p elem.elem?
+  p elem
+end
