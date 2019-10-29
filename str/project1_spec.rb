@@ -17,9 +17,19 @@ describe 'Polindrom' do
     end
 
     it 'check Слово обычное' do
-      # puts Polindrom.check('pop')
-      expect( Polindrom.check('зddfщз')).to eq 'Слово обычное'
-        # pending 'Not implemented'
+      expect( Polindrom.check('ffvаааcff')).to eq 'Слово обычное'
+    end
+    it 'check Слово обычное' do
+      expect( Polindrom.check('ffcапcff')).to eq 'Слово обычное'
+    end
+    it 'check Слово обычное' do
+      expect( Polindrom.check('ffсаcff')).to eq 'Слово обычное'
+    end
+    it 'check Слово обычное' do
+      expect( Polindrom.check('ffvаааfсf')).to eq 'Слово обычное'
+    end
+    it 'check Слово обычное' do
+      expect( Polindrom.check('ffvаааfсf')).to eq 'Слово обычное'
     end
 
   end

@@ -8,7 +8,7 @@ class Polindrom
       # print "#{index}, #{sum}, #{item}, #{word[-index - 1]} "
       # puts
     end
-    if sum >= word.size / 2
+    if sum > word.size / 2
       return 'Палиндром'
     else
       return 'Слово обычное'
